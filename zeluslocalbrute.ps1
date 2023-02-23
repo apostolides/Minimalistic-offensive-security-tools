@@ -1,3 +1,4 @@
+# PowerShell.exe -ExecutionPolicy Bypass -File zeluslocalbrute.ps1
 Function localbrute {
   param($u,$dct,$debug)
   $d = $dct -replace ".*\\" -replace ".*/"
